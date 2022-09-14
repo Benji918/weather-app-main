@@ -2,7 +2,7 @@
 `pip install -r requirements.txt`
 
 ## Screenshots
-![](images\weather.png)
+![](weather.png)
 
 ## Run Server
 `flask run app.py`
