@@ -50,7 +50,7 @@
         {% if is_fahrenheit %}
         <div class="degrees"><span>{{ city.degrees }}<span class="degree-unit"> °F</span></span></div>
         {% else %}
-        <div class="degrees"><span>{{ <city class="d"></city>egrees }}<span class="degree-unit"> °C</span></span></div>
+        <div class="degrees"><span><city class="d">{{ city.degrees }}</city><span class="degree-unit"> °C</span></span></div>
         {% endif %}
         <div class="state">{{ city.state }}</div>
         <div class="empty"></div>
